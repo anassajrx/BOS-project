@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Mehdi Salehi">
+      <firstName>Mehdi</firstName>
+      <lastName>Salehi</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Zakaria Hachm">
+      <firstName>Zakaria</firstName>
+      <lastName>Hachm</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Banouq">
+      <firstName>Mohamed Yassine</firstName>
+      <lastName>Banouq</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Merimi">
+      <firstName>Ahmed</firstName>
+      <lastName>Merimi</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Berdei">
+      <firstName>Adam</firstName>
+      <lastName>Berdei</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Ouaggane">
+      <firstName>Abdellah</firstName>
+      <lastName>Ouaggane</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Ammar">
+      <firstName>Ilias</firstName>
+      <lastName>Ammar</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Tawfiq">
+      <firstName>Ahmed</firstName>
+      <lastName>Tawfiq</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Abbas">
+      <firstName>Abbas</firstName>
+      <lastName>Fernas</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User1">
+      <firstName>John</firstName>
+      <lastName>Doe</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Ministre">
+      <displayName>Ministre</displayName>
+    </role>
+    <role name="Secr&#xe9;taire">
+      <displayName>Secr&#xe9;taire</displayName>
+    </role>
+    <role name="Membre de Commission permanente">
+      <displayName>Membre de Commission permanente</displayName>
+    </role>
+    <role name="Membre de Commission mixte">
+      <displayName>Membre de Commission mixte</displayName>
+    </role>
+    <role name="Repr&#xe9;santant">
+      <displayName>Repr&#xe9;sentant</displayName>
+    </role>
+    <role name="Conseiller">
+      <displayName>Conseiller</displayName>
+    </role>
+    <role name="Chef de gouvernement">
+      <displayName>Chef de gouvernement</displayName>
+    </role>
+    <role name="Roi">
+      <displayName>Roi</displayName>
+    </role>
+    <role name="Membre du conseil de gouvernement">
+      <displayName>Membre du conseil de gouvernement</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Ministres">
+      <displayName>Ministres</displayName>
+    </group>
+    <group name="Secr&#xe9;taires">
+      <displayName>Secr&#xe9;taires</displayName>
+    </group>
+    <group name="Conseil de gouvernement">
+      <displayName>Conseil de gouvernement</displayName>
+    </group>
+    <group name="Commission permanente">
+      <displayName>Commission permanente</displayName>
+    </group>
+    <group name="Chambre des repr&#xe9;sentants">
+      <displayName>Chambre des repr&#xe9;sentants</displayName>
+    </group>
+    <group name="Chef du gouvernement">
+      <displayName>Chef du gouvernement</displayName>
+    </group>
+    <group name="Commission mixte">
+      <displayName>Commission mixte</displayName>
+    </group>
+    <group name="Roi">
+      <displayName>Roi</displayName>
+    </group>
+    <group name="Chambre des conseillers">
+      <displayName>Chambre des conseillers</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Mehdi Salehi</userName>
+      <roleName>Membre du conseil de gouvernement</roleName>
+      <groupName>Conseil de gouvernement</groupName>
+    </membership>
+    <membership>
+      <userName>Zakaria Hachm</userName>
+      <roleName>Membre de Commission permanente</roleName>
+      <groupName>Commission permanente</groupName>
+    </membership>
+    <membership>
+      <userName>Banouq</userName>
+      <roleName>Repr&#xe9;santant</roleName>
+      <groupName>Chambre des repr&#xe9;sentants</groupName>
+    </membership>
+    <membership>
+      <userName>Merimi</userName>
+      <roleName>Membre de Commission mixte</roleName>
+      <groupName>Commission mixte</groupName>
+    </membership>
+    <membership>
+      <userName>Berdei</userName>
+      <roleName>Chef de gouvernement</roleName>
+      <groupName>Chef du gouvernement</groupName>
+    </membership>
+    <membership>
+      <userName>Ouaggane</userName>
+      <roleName>Roi</roleName>
+      <groupName>Roi</groupName>
+    </membership>
+    <membership>
+      <userName>Ammar</userName>
+      <roleName>Conseiller</roleName>
+      <groupName>Chambre des conseillers</groupName>
+    </membership>
+    <membership>
+      <userName>Tawfiq</userName>
+      <roleName>Ministre</roleName>
+      <groupName>Ministres</groupName>
+    </membership>
+    <membership>
+      <userName>Abbas</userName>
+      <roleName>Ministre</roleName>
+      <groupName>Ministres</groupName>
+    </membership>
+    <membership>
+      <userName>User1</userName>
+      <roleName>Ministre</roleName>
+      <groupName>Ministres</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.ProjetDeLoi">
+            <fields>
+                <field type="TEXT" length="255" name="ministre" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="dateDeDepot" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="description" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estApprouveParSec" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estApprouveParGouv" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estApprouveParPerm" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estApprouveParRepr" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estApprouveParConsei" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estApprouveParMixte" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estApprouveParRoi" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
